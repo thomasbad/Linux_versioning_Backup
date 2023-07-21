@@ -59,5 +59,8 @@ Every first day of the month at 23:07, it will first backup once and this backup
 Then, after the first day, it will still backup everyday, and will overwrite the old one after a month.
 Finally, it will backup every hour from 00:07 to 22:07, and overwrite the old one after 24 hours. Where is the 23:07 backup? You've already got it in daily backup!
 
+## When should I use rsync for backup instead of rdiff?
+https://web.synametrics.com/comparing-rsync-with-other-technologies.htm
+
 ## I still don't know what you means
 Please do Google "how to use crontab" and "linux how to change file access right"
